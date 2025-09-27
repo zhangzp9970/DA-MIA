@@ -4,7 +4,11 @@
 
 ![1758977455574](image/README/1758977455574.png)
 
+<p align="center">The framework of DA-MIA</p>
+
 ![1758977495992](image/README/1758977495992.png)
+
+<p align="center">The framework of DA-MIA-AC</p>
 
 ## Abstract
 
@@ -37,22 +41,16 @@ The code is compatable with the latest version of all the software.
 
 * main_MNIST.py -- train the MNIST classifier.
 * main_USPS.py -- train the USPS classifier.
-
 * main_FaceScrub.py -- train the FaceScrub classifier.
 * main_CelebA.py -- train the CelebA classifier.
-
 * dattack_M2U.py -- perform the DA-MIA attack. Use USPS to invert MNIST.
 * dattack_U2M.py -- perform the DA-MIA attack. Use MNIST to invert USPS.
-
 * dattack_F2C.py -- perform the DA-MIA attack. Use CelebA to invert FaceScrub.
 * dattack_C2F.py -- perform the DA-MIA attack. Use FaceScrub to invert CelebA.
-
 * dattackb_M2U.py -- perform the DA-MIA-AC attack. Use USPS to invert MNIST.
 * dattackb_U2M.py -- perform the DA-MIA-AC attack. Use MNIST to invert USPS.
-
 * dattackb_F2C.py -- perform the DA-MIA-AC attack. Use CelebA to invert FaceScrub.
 * dattackb_C2F.py -- perform the DA-MIA-AC attack. Use FaceScrub to invert CelebA.
-
 * export_M2U.py -- export images in the DA-MIA attack, M2U task.
 
 You can easily modify the file to export images for other tasks.
