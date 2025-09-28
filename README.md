@@ -73,7 +73,7 @@ You should have received a copy of the GNU General Public License along with thi
 
 ## Citation
 
-```
+```bibtex
  @article{Zhang_Huang_2024, 
 title={Aligning the domains in cross domain model inversion attack}, 
 volume={178}, 
